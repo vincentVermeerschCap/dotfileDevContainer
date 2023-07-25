@@ -1,6 +1,6 @@
 #!/bin/sh
 # export ZDOTDIR=$HOME/.config/zsh
-# source "$HOME/.config/zsh/.zshrc"
+source "$HOME/.config/zsh/.zshrc"
 export ZDOTDIR=$HOME/.config/zsh
 
 # Handle history
