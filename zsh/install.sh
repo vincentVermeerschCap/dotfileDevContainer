@@ -1,5 +1,6 @@
 # Config
 mkdir $HOME/.config/zsh
+mkdir ${HOME}/.config/zsh/plugins
 
 ln -sf "${DOTFILES_LOCATION}/zsh/.zshrc" "${HOME}/.zshrc"
 ln -sf "${DOTFILES_LOCATION}/zsh/.zshrc" "${HOME}/.config/zsh/.zshrc"
