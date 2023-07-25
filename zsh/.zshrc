@@ -1,6 +1,7 @@
 #!/bin/sh
 # export ZDOTDIR=$HOME/.config/zsh
 source "$HOME/.config/zsh/.zshrc"
+source "$HOME/.config/zsh/zsh-functions"
 # export ZDOTDIR=$HOME/.config/zsh
 
 # Handle history
@@ -17,7 +18,7 @@ setopt SHARE_HISTORY      # Share history across terminals
 setopt INC_APPEND_HISTORY # Immediately append to the history file, not just when a term is killed
 
 # Useful Functions
-source "./zsh-functions"
+# source "./zsh-functions"
 
 # some useful options (man zshoptions)
 setopt autocd extendedglob nomatch menucomplete
