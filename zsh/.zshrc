@@ -1,7 +1,7 @@
 #!/bin/sh
 # export ZDOTDIR=$HOME/.config/zsh
 source "$HOME/.config/zsh/.zshrc"
-export ZDOTDIR=$HOME/.config/zsh
+# export ZDOTDIR=$HOME/.config/zsh
 
 # Handle history
 export HISTFILE=$ZDOTDIR/.zsh_history  # Refers to the path/location of the history file
